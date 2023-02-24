@@ -24,6 +24,10 @@ class ToDoList extends Component {
     });
   };
 
+  onSubmit = (event) => {
+    
+  };
+
   render() {
     return (
       <div>
@@ -43,7 +47,11 @@ class ToDoList extends Component {
               fluid
               placeholder="Create task"
             />
+            {/* {<Button>Create Task</Button>} */}
           </Form>
+        </div>
+        <div className="row">
+          <Card.Group>{this.state.items}</Card.Group>
         </div>
       </div>
     );
