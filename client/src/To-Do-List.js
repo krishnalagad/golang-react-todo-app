@@ -18,6 +18,12 @@ class ToDoList extends Component {
     this.getTask();
   }
 
+  onChange = (event) => {
+    this.setState({
+      [event.target.name]: event.target.value,
+    });
+  };
+
   render() {
     return (
       <div>
