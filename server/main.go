@@ -8,6 +8,7 @@ import (
 	"github.com/krishnalagad/golang-react-todo/router"
 )
 
+// main function
 func main() {
 	fmt.Println("Starting project on port 9000")
 
